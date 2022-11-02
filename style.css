@@ -9,6 +9,10 @@
     list-style-type: none;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+
 /*utilities*/
 
 .flex{
@@ -73,9 +77,13 @@
 
 .card{
     width: 100%;
-    border-radius: 50px;
-    padding: 1.5rem 1rem;
+    border-radius: 20px;
+    padding: 2.5rem 2rem;
     margin-bottom: 1rem;
+}
+
+.card>*{
+    margin-bottom: 1.5rem;
 }
 
 
@@ -84,10 +92,51 @@
 header{
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2.5rem;
 }
 
 header nav{
     color: white;
+}
+
+/*introduction*/
+
+#introduction .card{
+    text-align: center;
+    font-weight: bold;
+}
+
+#introduction .card h3{
+    font-size: 1.5rem;
+}
+
+#introduction .card:first-child{
+    padding-bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+#introduction .content>*{
+    margin-bottom: 2.5rem;
+}
+
+#introduction .card:first-child button{
+    border: none;
+    padding: .6rem 4rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+#introduction .card:first-child img{
+    width: 60vw;
+    margin-bottom: 0;
+}
+
+#introduction .card>i{
+    font-size: 5rem;
 }
 
 
