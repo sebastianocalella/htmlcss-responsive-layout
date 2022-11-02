@@ -10,13 +10,18 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8rem;
 }
 
 /*utilities*/
 
 .flex{
     display: flex;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 /*colours*/
@@ -80,11 +85,14 @@ body{
     border-radius: 20px;
     padding: 2.5rem 2rem;
     margin-bottom: 1rem;
-    line-height: 1.8rem;
 }
 
 .card>*{
     margin-bottom: 1.5rem;
+}
+
+section span:first-child{
+    display: block;
 }
 
 
@@ -159,4 +167,54 @@ header nav{
     padding: 1.2rem;
     border-radius: 100%;
     margin-top: 1rem;
+}
+
+/*Testimonials*/
+
+#testimonials{
+    text-align: center;
+}
+
+#testimonials>*{
+    margin-bottom: 1.5rem;
+}
+
+#testimonials img{
+    width: 80%;
+}
+
+#testimonials .content i{
+    font-size: 1.5rem;
+}
+
+.image-container{
+    margin: 1rem auto;
+    width: 45vw;
+    height: 45vw;
+    border-radius: 100%;
+}
+
+.testimonial-1{
+    background-image: url(./img/testimonial1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial-2{
+    background-image: url(./img/testimonial2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial-3{
+    background-image: url(./img/testimonial3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#testimonials h3 {
+    font-size: 1.5rem;
 }
