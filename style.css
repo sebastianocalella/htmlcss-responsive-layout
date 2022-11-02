@@ -17,6 +17,10 @@
 
 /*colours*/
 
+.blue{
+    color: #0084fd;
+}
+
 .gold{
     color: #fdc15f;
 }
@@ -35,6 +39,10 @@
 
 .black{
     color: black;
+}
+
+.bg-blue{
+    background-color: #0084fd;
 }
 
 .bg-dark-gray{
@@ -74,7 +82,6 @@
 /*header*/
 
 header{
-    background-color: #0084fd;
     justify-content: space-between;
     align-items: center;
 }
