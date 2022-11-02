@@ -396,4 +396,17 @@ MEDIA QUERY
         margin: 0;
     }
 
+    /*benefits*/
+
+    #benefits .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #benefits .card{
+        width: 48%;
+        margin-bottom: 4%;
+    }
+
 }
