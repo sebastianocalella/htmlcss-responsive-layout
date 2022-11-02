@@ -335,3 +335,33 @@ body>footer{
 body>footer>*{
     padding: 2rem 0;
 }
+
+/*-------------------------
+
+MEDIA QUERY
+
+--------------------------*/
+
+@media screen and (min-width: 768px){
+
+    .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #introduction .card{
+        width: 30%;
+    }
+
+    #introduction .card:first-child{
+        width: 65%; /* il 65% è dedotto dal fatto che ponendo 3 card da 30% l'una lo spazio rimanente fra di esse con space-between sarà il 10%. Essendoci 2 spazi in totale ciascuno varrà 5%. Percui la dimensione della card è doppia (60%) con l'aggiunta di uno dei due spazi (5%)*/
+        align-items: flex-start;
+    }
+
+    #introduction .card:first-child img{
+        width: 30vw;
+        margin-bottom: 0;
+        text-align: left;
+    }
+}
