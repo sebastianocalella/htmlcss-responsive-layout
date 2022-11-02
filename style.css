@@ -24,6 +24,10 @@ span{
     display: flex;
 }
 
+.fl-column{
+    flex-direction: column;
+}
+
 .uppercase{
     text-transform: uppercase;
 }
@@ -82,10 +86,6 @@ span{
 
 .container{
     padding: 1rem 2rem;
-}
-
-.cards{
-    flex-direction: column;
 }
 
 .card{
@@ -185,6 +185,15 @@ header nav{
 
 #testimonials>*{
     margin-bottom: 1.5rem;
+}
+
+#testimonials .card{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#testimonials .content p{
+    margin-bottom: 2rem;
 }
 
 #testimonials img{
@@ -350,6 +359,8 @@ MEDIA QUERY
         justify-content: space-between;
     }
 
+    /*introduction*/
+
     #introduction .card{
         width: 30%;
     }
@@ -357,6 +368,7 @@ MEDIA QUERY
     #introduction .card:first-child{
         width: 65%; /* il 65% è dedotto dal fatto che ponendo 3 card da 30% l'una lo spazio rimanente fra di esse con space-between sarà il 10%. Essendoci 2 spazi in totale ciascuno varrà 5%. Percui la dimensione della card è doppia (60%) con l'aggiunta di uno dei due spazi (5%)*/
         align-items: flex-start;
+        justify-content: space-between;
     }
 
     #introduction .card:first-child img{
@@ -364,4 +376,24 @@ MEDIA QUERY
         margin-bottom: 0;
         text-align: left;
     }
+
+    /*Testimonials*/
+
+    #testimonials .card{
+        padding: 1rem 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #testimonials .image-container{
+        width: 20vw;
+        height: 20vw;
+        margin: 0;
+    }
+
+    #testimonials .content{
+        width: 65%;
+        margin: 0;
+    }
+
 }
