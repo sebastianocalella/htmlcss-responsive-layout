@@ -15,7 +15,31 @@
     display: flex;
 }
 
+    /*colours*/
+
+    .bg-lightblue{
+        background-color: #b5ddff;
+    }
+
 /*style*/
+
+.container{
+    padding: 1rem 2rem;
+}
+
+section :first-child{
+    flex-direction: column;
+}
+
+.card{
+    width: 100%;
+    border-radius: 50px;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/*header*/
 
 header{
     background-color: #0084fd;
@@ -27,18 +51,3 @@ header nav{
     color: white;
 }
 
-.container{
-    padding: 1rem 2rem;
-}
-
-.card{
-    width: 100%;
-    background-color: #b5ddff;
-    border-radius: 50px;
-    padding: 1.5rem 1rem;
-    margin-bottom: 1rem;
-}
-
-section :first-child{
-    flex-direction: column;
-}
