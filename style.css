@@ -283,12 +283,14 @@ header nav{
     line-height: 3rem;
 }
 
+
 #about-us .card{
     padding: 2rem 0;
 }
 
 #about-us .card p{
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 
 .about-image{
@@ -315,7 +317,12 @@ header nav{
     line-height: 2em;
 }
 
-#get-started>*{
+#get-started .box{
+    margin: 0 auto;
+    max-width: 670px;
+}
+
+#get-started>.box>*{
     padding: .75em 0;
 }
 
@@ -327,7 +334,7 @@ header nav{
     font-size: 2rem;
 }
 
-#get-started button{
+#get-started .box button{
     display: block;
     border: none;
     margin: 1.5rem auto;
@@ -341,7 +348,12 @@ body>footer{
     text-align: center;
 }
 
-body>footer>*{
+body>footer .box{
+    margin: 0 auto;
+    max-width: 670px;
+}
+
+body>footer>.box>*{
     padding: 2rem 0;
 }
 
@@ -407,6 +419,28 @@ MEDIA QUERY
     #benefits .card{
         width: 48%;
         margin-bottom: 4%;
+    }
+
+    /*about us*/
+
+    #about-us .cards{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0 2rem;
+    }
+
+    #about-us .card:first-child{
+        width: 52%;
+    }
+
+    #about-us .card:last-child{
+        width: 30vw;
+    }
+
+    #about-us .image-container{
+        width: 30vw;
+        height: 30vw;
+        margin: 0 auto 2rem;
     }
 
 }
