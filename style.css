@@ -17,8 +17,24 @@
 
     /*colours*/
 
+    .white{
+        color: white;
+    }
+
+    .black{
+        color: black;
+    }
+
     .bg-lightblue{
         background-color: #b5ddff;
+    }
+
+    .bg-violet{
+        background-color: #9792e4;
+    }
+
+    .bg-white{
+        background-color: white;
     }
 
 /*style*/
@@ -50,4 +66,8 @@ header{
 header nav{
     color: white;
 }
+
+/*strategic-planning section*/
+
+
 
