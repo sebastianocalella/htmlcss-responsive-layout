@@ -14,6 +14,10 @@ body{
     line-height: 1.8rem;
 }
 
+span{
+    display: inline-block;
+}
+
 /*utilities*/
 
 .flex{
@@ -36,6 +40,10 @@ body{
 
 .gray{
     color: #5a6e7f;
+}
+
+.light-gray{
+    color: lightgray;
 }
 
 .violet{
@@ -284,4 +292,34 @@ header nav{
     padding: .5rem 1rem;
     border-radius: 20px;
     font-size: 1rem;
+}
+
+/*get started*/
+
+#get-started{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 2em;
+}
+
+#get-started>*{
+    padding: .75em 0;
+}
+
+#get-started h2{
+    font-size: 4rem;
+}
+
+#get-started h3{
+    font-size: 2rem;
+}
+
+#get-started button{
+    display: block;
+    border: none;
+    margin: 1.5rem auto;
+    padding: 1.5rem 6rem;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
