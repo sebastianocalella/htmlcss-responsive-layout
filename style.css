@@ -17,6 +17,10 @@
 
     /*colours*/
 
+    .gray{
+        color: #5a6e7f;
+    }
+
     .violet{
         color: #9792e4;
     }
@@ -47,7 +51,7 @@
     padding: 1rem 2rem;
 }
 
-section .cards{
+.cards{
     flex-direction: column;
 }
 
