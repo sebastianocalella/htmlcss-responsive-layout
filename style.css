@@ -80,6 +80,7 @@ body{
     border-radius: 20px;
     padding: 2.5rem 2rem;
     margin-bottom: 1rem;
+    line-height: 1.8rem;
 }
 
 .card>*{
@@ -139,5 +140,23 @@ header nav{
     font-size: 5rem;
 }
 
+/*Strategic planning*/
 
+#strategic-planning .card img{
+    width: 100%;
+}
 
+#strategic-planning .card:last-child{
+    text-align: center;
+}
+
+#strategic-planning .card:last-child p{
+    font-style: italic;
+}
+
+#strategic-planning .card:last-child i{
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
