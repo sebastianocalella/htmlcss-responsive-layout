@@ -17,6 +17,10 @@
 
     /*colours*/
 
+    .violet{
+        color: #9792e4;
+    }
+
     .white{
         color: white;
     }
@@ -43,7 +47,7 @@
     padding: 1rem 2rem;
 }
 
-section :first-child{
+section .cards{
     flex-direction: column;
 }
 
@@ -66,8 +70,6 @@ header{
 header nav{
     color: white;
 }
-
-/*strategic-planning section*/
 
 
 
