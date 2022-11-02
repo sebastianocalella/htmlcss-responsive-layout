@@ -37,6 +37,10 @@
     color: black;
 }
 
+.bg-dark-gray{
+    background-color: #333333;
+}
+
 .bg-lightblue{
     background-color: #b5ddff;
 }
