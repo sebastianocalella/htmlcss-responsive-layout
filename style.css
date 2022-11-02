@@ -15,35 +15,39 @@
     display: flex;
 }
 
-    /*colours*/
+/*colours*/
 
-    .gray{
-        color: #5a6e7f;
-    }
+.gold{
+    color: #fdc15f;
+}
 
-    .violet{
-        color: #9792e4;
-    }
+.gray{
+    color: #5a6e7f;
+}
 
-    .white{
-        color: white;
-    }
+.violet{
+    color: #9792e4;
+}
 
-    .black{
-        color: black;
-    }
+.white{
+    color: white;
+}
 
-    .bg-lightblue{
-        background-color: #b5ddff;
-    }
+.black{
+    color: black;
+}
 
-    .bg-violet{
-        background-color: #9792e4;
-    }
+.bg-lightblue{
+    background-color: #b5ddff;
+}
 
-    .bg-white{
-        background-color: white;
-    }
+.bg-violet{
+    background-color: #9792e4;
+}
+
+.bg-white{
+    background-color: white;
+}
 
 /*style*/
 
