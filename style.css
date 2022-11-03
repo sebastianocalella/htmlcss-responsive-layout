@@ -116,6 +116,24 @@ header nav{
     color: white;
 }
 
+header ul{
+    align-items: center;
+}
+
+header li{
+    margin-left: 20px;
+}
+
+header nav button{
+    border: none;
+    padding: .6rem 1rem;
+    border-radius: 20px;
+}
+
+header .desktop-li{
+    display: none;
+}
+
 /*introduction*/
 
 #introduction .card{
@@ -359,9 +377,12 @@ body>footer>.box>*{
 
 /*-------------------------
 
-MEDIA QUERY
+MEDIA QUERY *mobile-first*
 
 --------------------------*/
+
+
+/*tablet query*/
 
 @media screen and (min-width: 768px){
 
@@ -451,6 +472,21 @@ MEDIA QUERY
         width: 30vw;
         height: 30vw;
         margin: 0 auto 2rem;
+    }
+
+}
+
+
+/*desktop query*/
+
+@media screen and (min-width: 992px){
+
+    header nav i{
+        display: none;
+    }
+
+    header nav .desktop-li{
+        display: inline;
     }
 
 }
