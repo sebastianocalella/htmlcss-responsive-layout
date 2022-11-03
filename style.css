@@ -421,6 +421,7 @@ MEDIA QUERY *mobile-first*
         padding: 1rem 0;
         flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
     }
 
     #testimonials .image-container{
@@ -437,6 +438,7 @@ MEDIA QUERY *mobile-first*
 
     #testimonials .content p{
         margin-bottom: .8rem;
+        margin-right: 1rem;
     }
 
     /*benefits*/
@@ -528,6 +530,13 @@ MEDIA QUERY *mobile-first*
     #strategic-planning .card:last-child img{
         width: 70%;
         margin: 0 auto;
+    }
+
+    /*benefits*/
+
+    #benefits .card{
+        width: 31%;
+        margin-bottom: 4%;
     }
 
 }
