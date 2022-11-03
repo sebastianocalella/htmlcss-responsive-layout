@@ -400,12 +400,17 @@ MEDIA QUERY
     #testimonials .image-container{
         width: 20vw;
         height: 20vw;
-        margin: 0;
     }
 
     #testimonials .content{
         width: 65%;
         margin: 0;
+        text-align: left;
+        padding: 1.5rem 0;
+    }
+
+    #testimonials .content p{
+        margin-bottom: .8rem;
     }
 
     /*benefits*/
@@ -434,7 +439,12 @@ MEDIA QUERY
     }
 
     #about-us .card:last-child{
-        width: 30vw;
+        width: 32vw;
+    }
+
+    #about-us h3{
+        font-size: 1.8rem;
+        line-height: 2.4rem;
     }
 
     #about-us .image-container{
